@@ -1,0 +1,2 @@
+npm init
+npm install nodemon -g  // -g significa que vai instalar de forma global no computador
