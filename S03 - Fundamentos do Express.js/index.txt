@@ -1,2 +1,2 @@
-npm init
+npm init    // iniciar um pacote, criando o arquivo package. json 
 npm install nodemon -g  // -g significa que vai instalar de forma global no computador

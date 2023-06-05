@@ -16,7 +16,7 @@ app.get("/blog/:artigo?", function (req, res) {
 });
 
 app.get("/canal/youtube", function (req, res) {
-  const canal = req.query["canal"];
+  const canal = req.query["canal"]; // não é o canal de /canal/youtube, mas sim o canal de /canal/youtube/?canal=gustavo, que é um parâmetro opcional
   if (canal) {
     res.send(canal);
   }
