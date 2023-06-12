@@ -1,0 +1,13 @@
+[
+    {
+        "nome": "Victor Lima",
+        "curso": "Formação Node.js",
+        "categoria": "Node.js"
+    },
+
+    {
+        "nome": "Breno",
+        "curso": "Curso do Breno",
+        "categoria": "Full Stack"
+    }
+]
