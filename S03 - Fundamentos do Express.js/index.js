@@ -6,7 +6,7 @@ app.get("/", function (req, res) {
   // Só se pode enviar uma resposta uma única vez, já que tudo que for escrito depois é ignorado
 });
 
-app.get("/blog/:artigo?", function (req, res) {
+app.get("/blog/:artigo?", function (req, res) {  // "?" torna o parâmetro opcional
   const artigo = req.params.artigo;
   if (artigo) {
     res.send("Está aqui seu artigo");
