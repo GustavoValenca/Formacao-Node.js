@@ -1,0 +1,1 @@
+A VPS—or virtual private server—is a virtual machine that provides virtualized server resources on a physical server that is shared with other users.
